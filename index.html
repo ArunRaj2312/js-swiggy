@@ -16,11 +16,29 @@
         p,span{
             font-size: 15px;
         }
-        .container{
+        .hole-container{
+            width: 100%;
             display: flex;
         }
-        .col{
+        .container{
+            width: 75%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container-1{
             width: 25%;
+            padding: 20px;
+        }
+        .bill-box{
+            padding: 20px;
+            box-shadow: 0 0 5px 2px gray;
+            margin-top: 10px;
+        }
+        .bill-box p{
+            margin: 5px 0px;
+        }
+        .col{
+            width: 33.3%;
             padding: 20px;
         }
         .col-card img{
@@ -66,14 +84,26 @@
             justify-content: center;
             margin: 10px 0px;
         }
+        .bill{
+            display: flex;
+            justify-content: space-between;
+        }
+        .bill-1{
+            padding: 5px 0px;
+            margin: 10px 0px;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="hole-container">
+        <div class="container">
 
-    </div>
-    <div class="container-1">
-
+        </div>
+        <div class="container-1">
+            
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
